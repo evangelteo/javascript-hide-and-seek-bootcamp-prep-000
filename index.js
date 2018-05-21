@@ -12,7 +12,6 @@ function increaseRankBy(n) {
     const childr = ranks[i].children
     for (let j = 0; j < childr.length; j++) {
       childr[j].innerText = parseInt(childr[j].innerText)+n
-      
     }
   }
 }
